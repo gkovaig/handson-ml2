@@ -25,18 +25,18 @@
 
 
 ##### Core scientific packages
-jupyter==1.0.0
-matplotlib==3.0.3
-numpy==1.16.2
-pandas==0.24.1
-scipy==1.1.0
+jupyter>=1.0.0
+matplotlib>=3.0.3
+numpy>=1.16.2
+pandas>=0.24.1
+scipy>=1.1.0
 
 
 ##### Machine Learning packages
-scikit-learn==0.20.3
+scikit-learn>=0.20.3
 
 # Optional: the XGBoost library is only used in the ensemble learning chapter.
-xgboost==0.82
+xgboost>=0.82
 
 
 ##### TensorFlow-related packages
@@ -46,8 +46,8 @@ xgboost==0.82
 # you must install CUDA, cuDNN and more: see tensorflow.org for the detailed
 # installation instructions.
 
-tf-nightly-2.0-preview
-#tf-nightly-gpu-2.0-preview
+#tf-nightly-2.0-preview
+tf-nightly-gpu-2.0-preview
 
 #tensorboard
 tb-nightly
@@ -58,12 +58,12 @@ tfds-nightly
 tensorflow-hub
 
 # Optional: only used in chapter 13.
-#tensorflow-transform==0.13.0
+tensorflow-transform>=0.13.0
 
 # Optional: only used in chapter 16.
 # At the present (April 2019) the TF Addons library is only available on Linux
 # So uncomment this line if you are using Linux.
-#tensorflow-addons
+tensorflow-addons
 
 # Optional: the TF Agents library is only needed in chapter 18
 tf-agents-nightly
@@ -73,9 +73,9 @@ tensorflow-serving-api
 
 
 ##### Image manipulation
-imageio==2.5.0
-Pillow==5.4.1
-scikit-image==0.14.2
+imageio>=2.5.0
+Pillow>=5.4.1
+scikit-image>=0.14.2
 
 
 ##### Reinforcement Learning library
@@ -83,29 +83,29 @@ scikit-image==0.14.2
 # OpenAI gym is only needed in chapter 18.
 # There are a few dependencies you need to install first, check out:
 # https://github.com/openai/gym#installing-everything
-gym[atari]==0.10.9
+gym[atari]>=0.10.9
 
 
 ##### Additional utilities
 
 # Joblib is a set of tools to provide lightweight pipelining
-joblib==0.13.2
+joblib>=0.13.2
 
 # May be useful with Pandas for complex "where" clauses (e.g., Pandas
 # tutorial).
-numexpr==2.6.9
+numexpr>=2.6.9
 
 # Optional: these libraries can be useful in chapter 3, exercise 4.
-nltk==3.4
-urlextract==0.9
+nltk>=3.4
+urlextract>=0.9
 
 # Needed in chapter 19.
-requests==2.22.0
+requests>=2.22.0
 
 # Optional: nice utility to diff Jupyter Notebooks.
-#nbdime==1.0.5
+nbdime>=1.0.5
 
 # Optional: tqdm displays nice progress bars, ipywidgets for tqdm's notebook support
-tqdm==4.31.1
-ipywidgets==7.4.2
+tqdm>=4.31.1
+ipywidgets>=7.4.2
 
